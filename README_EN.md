@@ -20,12 +20,6 @@ Supports custom server address and one\-click start/stop, with automatic configu
 
 ---
 
-## 📦 Version
-
-**v26\.6\.15**
-
----
-
 ## 📁 Project Structure
 
 ```Plain Text
@@ -67,21 +61,3 @@ Click the extension icon to open the settings panel:
 ### 2\. Normal Use
 
 Open and run your Tinkercad Arduino simulation\. When the extension is enabled, it will automatically perform bidirectional serial data transmission to realize linkage control of simulation equipment\.
-
----
-
-## ✅ Advantages
-
-- Simple operation, zero learning cost
-
-- Flexible address configuration for different environments
-
-- Smooth and stable operation
-
-- Standard native browser extension, safe and reliable
-
----
-
-## 📄 License
-
-Open source for learning and personal use\.

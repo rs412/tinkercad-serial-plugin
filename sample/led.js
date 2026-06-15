@@ -1,13 +1,12 @@
 const http = require('http');
-const url = require('url');
 
 const cmdQueue = [];
 let latestLedStatus = '';
 
 const server = http.createServer((req, res) => {
-    const parseUrl = url.parse(req.url, true);
-    const query = parseUrl.query;
-    const pathname = parseUrl.pathname;
+    const urlObj = new URL(req.url, `http://${req.headers.host}`);
+    const query = Object.fromEntries(urlObj.searchParams);
+    const pathname = urlObj.pathname;
 
     res.setHeader('Access-Control-Allow-Origin', '*');
     res.setHeader('Access-Control-Allow-Methods', 'GET,POST,OPTIONS');

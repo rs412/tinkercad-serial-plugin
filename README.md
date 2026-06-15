@@ -51,6 +51,8 @@ tinkercad-serial-bridge/
 
 点击浏览器插件图标，打开配置面板：
 
+<img width="238" height="133" alt="image" src="https://github.com/user-attachments/assets/ffebd002-0490-4de3-b7f6-9ddcc767f1e3" />
+
 - **Server URL（服务地址）**：填写通信服务地址，默认本地地址 `http://localhost:8080`
 
 - **Enable Bridge（启用桥接）**：开关控制通信功能开启/关闭

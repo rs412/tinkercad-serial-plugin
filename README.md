@@ -70,4 +70,4 @@ tinkercad-serial-bridge/
   
   Email: redshift@yeah.net
   
-  Github: https://github.com/rs412/tinkercad-serial-bridge
+  Github: https://github.com/rs412/

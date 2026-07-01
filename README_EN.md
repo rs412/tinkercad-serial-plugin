@@ -1,4 +1,4 @@
-# tinkercad\-serial\-bridge
+# Tinkercad Serial Bridge
 
 A lightweight Manifest V3 browser extension for bidirectional serial data communication with Tinkercad Arduino simulation\.
 
